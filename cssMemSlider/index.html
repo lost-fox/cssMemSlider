@@ -4,9 +4,52 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
    <title>MemSlider</title>
 </head>
 <body>
-   
+   <header>
+      <div class="container">
+         <h1>Welcome!</h1>
+      <p>I want to show you my favorite memes...</p>
+      </div>
+   </header>
+   <main id="main">
+         <!-- <input type="radio" name="respond" id="desktop" checked> -->
+      <div class="container">
+           <article id="slider" class="slider"> 
+               <input type="radio" name="slider" id="check1">
+               <input type="radio" name="slider" id="check2">
+               <input type="radio" name="slider" id="check3">
+               <input type="radio" name="slider" id="check4">
+               <input type="radio" name="slider" id="check5">
+
+               <div class="sliders">
+                  <div class="sliders__image">
+                     <article><img src="img/1.jpg" alt="1"></article>
+                     <article><img src="img/2.jpg" alt="2"></article>
+                     <article><img src="img/3.jpg" alt="3"></article>
+                     <article><img src="img/4.jpg" alt="4"></article>
+                     <article><img src="img/5.jpg" alt="5"></article>
+                  </div>
+               </div>
+               <div class="panel-controls" id="controls">
+                  <label for="check1"></label>
+                  <label for="check2"></label>
+                  <label for="check3"></label>
+                  <label for="check4"></label>
+                  <label for="check5"></label>
+               </div>
+               <div class="panel-controls__active" id="active">
+                  <label for="check1"></label>
+                  <label for="check2"></label>
+                  <label for="check3"></label>
+                  <label for="check4"></label>
+                  <label for="check5"></label>
+               </div>
+         </article>
+      </div>
+       
+   </main>
 </body>
 </html>
