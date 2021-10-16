@@ -145,7 +145,7 @@ main input{
       height: 40vh;
    }
    .panel-controls{
-      margin-top: -40%;
+      margin-top: -39%;
    }
    .panel-controls__active label:nth-child(1){
       margin-left: 0px;
